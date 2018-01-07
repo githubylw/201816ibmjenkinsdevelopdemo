@@ -1,0 +1,12 @@
+#£¡/bin/groovy
+stage('stage1') {
+	node('master') {
+		sh 'echo "------stage1-----"'
+	}
+}
+
+stage('stage2') {
+	node('master') {
+		sh 'echo "------stage2-----"'
+	}
+}

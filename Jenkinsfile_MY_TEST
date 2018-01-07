@@ -1,4 +1,4 @@
-#£¡/bin/groovy
+#!/bin/groovy
 stage('stage1') {
 	node('master') {
 		sh 'echo "------stage1-----"'
